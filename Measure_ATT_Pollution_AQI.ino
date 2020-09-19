@@ -13,12 +13,6 @@ SoftwareSerial pmsSerial(2, 3);
 #define OLED_RESET 4
 Adafruit_SSD1306 display(OLED_RESET);
 
-#define NUMFLAKES 10
-#define XPOS 0
-#define YPOS 1
-#define DELTAY 2
-double count=0;
-
 // this is the Width and Height of Display which is 128 xy 32 
 #define LOGO16_GLCD_HEIGHT 64
 #define LOGO16_GLCD_WIDTH  128 
